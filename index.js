@@ -15,7 +15,6 @@ function calculatesFarePrice(start, destination) {
   const distance = destination - start;
   switch(distance) {
     case < 400:
-      return 0;
       break;
   }
 }
